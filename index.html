@@ -20,9 +20,13 @@
         />
         <title>Frontend Mentor | Product preview card component</title>
     </head>
-    <body>
+    <body class="flex-center">
         <section class="card">
             <picture>
+                <source
+                    srcset="src/images/image-product-desktop.jpg"
+                    media="(min-width:600px)"
+                />
                 <img
                     class="card__picture"
                     src="src/images/image-product-mobile.jpg"
@@ -36,11 +40,13 @@
                     A floral, solar and voluptuous interpretation composed by
                     Olivier Polge, Perfumer-Creator for the House of CHANEL.
                 </p>
-                <div class="text__prices">
+                <div class="text__prices flex-center">
+                    <span class="sr-only">Current Price</span>
                     <div class="current__price">$149.99</div>
-                    <div class="new__price">$169.99</div>
+                    <span class="sr-only">Old Price</span>
+                    <div class="old__price">$169.99</div>
                 </div>
-                <button class="btn">Add to Cart</button>
+                <button class="btn flex-center">Add to Cart</button>
             </section>
         </section>
     </body>
