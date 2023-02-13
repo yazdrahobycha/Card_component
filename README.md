@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://yazdrahobycha.github.io/Card_component/](https://yazdrahobycha.github.io/Card_component/)
 
 ## My process
 
